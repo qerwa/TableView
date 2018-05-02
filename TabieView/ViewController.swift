@@ -42,7 +42,6 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
             
             // cell에 image 넣기
             cell.imageView?.image = UIImage(named: "1.jpg")
-            
             return cell
       }
       
@@ -50,9 +49,9 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
             // fixed font style. use custom view (UILabel) if you want something different
             
             if section == 0 {
-                  return "section header " + String(section)
+                  return "1st section"
             } else {
-                  return "section header " + String(section)
+                  return "2nd section"
             }
       }
       
