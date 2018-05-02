@@ -65,6 +65,10 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
 //            }
 //      }
 //
+      //row의 height 조절
+      func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+            return 100.0
+      }
       // UITableViewDelegate Method
       public func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
             
